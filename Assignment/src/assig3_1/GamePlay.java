@@ -1,3 +1,4 @@
+package assig3_1;
 import java.util.Random;
 
 /*System-Programming : Assignment 3
@@ -10,7 +11,6 @@ public class GamePlay {
 	
 	
 	public synchronized void makeCoinAvail(boolean val) {
-		//TODO improve
 		coin_available_ = val;
 		
 		if(coin_available_)
@@ -37,7 +37,6 @@ public class GamePlay {
 		
 		 Random rand = new Random();
 	     int rand_int1 = rand.nextInt(2);
-	     //TODO add promotion in points
 	     
 		coin_available_ = true;//Leave coin
 		
